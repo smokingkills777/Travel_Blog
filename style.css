@@ -46,7 +46,6 @@ input:focus{
     justify-content: center;
 }
 .search input{
-    
     height: 50px;
     width: 95%;
     font-size: 24px;
@@ -245,8 +244,16 @@ input:focus{
     .container, .menu{
         width: 95%;
     }
+    .search input{
+        height: 40px;
+        font-size: 20px;
+    }
 }
 @media screen and (max-width: 768px){
+    .search input{
+        height: 40px;
+        font-size: 18px;
+    }
     .block-wrapper{
         display: grid;
         grid-template-columns: 1fr; 
@@ -283,6 +290,11 @@ input:focus{
 @media screen and (max-width: 425px){
     *{
         grid-gap: 2.5vw;
+    }
+    .search input{
+        width: 85%;
+        height: 30px;
+        font-size: 16px;
     }
     .main-block{
         grid-template-rows: 596px 703px;
