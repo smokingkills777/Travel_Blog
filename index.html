@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
 </head>
@@ -22,21 +23,21 @@
         </div>
     </header>
     <div class="container">
-        <div class="block-wrapper">
+        <div class="block-wrapper" >
             <div class="main-block">
-                <div class="block-double">
+                <div class="block-double" id="block1">
                     <div class="wrapper" id="img1_wrapper">
                         <div class="block" id="img1">
                             <img src="icons/instagram-logo.png" alt="" class="inst-logo">
                         </div>
                     </div>
-                    <div class="wrapper" id="img2_wrapper">
+                    <div class="wrapper " id="img2_wrapper">
                         <div class="block" id="img2">
                             <img src="icons/instagram-logo.png" alt="" class="inst-logo">
                         </div>
                     </div>
                 </div>
-                <div class="wrapper">
+                <div class="wrapper" id="block2">
                     <div class="block" id="img3">
                         <div class="comment">
                             <div class="comment__theme">eat, pray & love</div>
@@ -48,7 +49,7 @@
                 </div>
             </div>
             <div class="main-block-mirror">
-                <div class="wrapper">
+                <div class="wrapper" id="block3">
                     <div class="block" id="img4">
                         <div class="comment">
                             <div class="comment__theme">life in the countryside</div>
@@ -58,7 +59,7 @@
                         <img src="icons/arrow.png" alt="" class="arrow">
                     </div>
                 </div>
-                <div class="wrapper">
+                <div class="wrapper" id="block4">
                     <div class="block" id="img5">
                         <div class="comment">
                             <div class="comment__theme">keep exploring</div>
@@ -71,7 +72,7 @@
             </div>
         </div>
 
-        <div class="wrapper">
+        <div class="wrapper" id="block5">
             <div class="block-full" id="img6">
                 <div class="comment">
                     <div class="comment__theme">explore the unknown</div>
@@ -81,7 +82,7 @@
                 <img src="icons/arrow.png" alt="" class="arrow">
             </div>
         </div>
-        <div class="wrapper">
+        <div class="wrapper" id="block6">
             <div class="block-full" id="img7">
                 <div class="comment">
                     <div class="comment__theme">sunset wishes</div>
@@ -94,7 +95,7 @@
 
         <div class="block-wrapper">
             <div class="main-block" id="second-block">
-                <div class="wrapper">
+                <div class="wrapper" id="block7">
                     <div class="block" id="img8">
                         <div class="comment">
                             <div class="comment__theme">Hidden Gem</div>
@@ -104,12 +105,12 @@
                         <img src="icons/arrow.png" alt="" class="arrow">
                     </div>
                 </div>
-                <div class="wrapper">
+                <div class="wrapper" id="block8">
                     <div class="block" id="img9">
                         <img src="icons/instagram-logo.png" alt="" class="inst-logo">
                     </div>
                 </div>
-                <div class="wrapper">
+                <div class="wrapper" id="block9">
                     <div class="block" id="img10">
                         <div class="comment">
                             <div class="comment__theme">experience nature</div>
@@ -121,7 +122,7 @@
                 </div>
             </div>
             <div class="main-block" id="second-block-mirror">
-                <div class="wrapper">
+                <div class="wrapper" id="block10">
                     <div class="block" id="img11">
                         <div class="comment">
                             <div class="comment__theme">soul food</div>
@@ -131,12 +132,12 @@
                         <img src="icons/arrow.png" alt="" class="arrow">
                     </div>
                 </div>
-                <div class="wrapper">
+                <div class="wrapper" id="block11">
                     <div class="block" id="img12">
                         <img src="icons/instagram-logo.png" alt="" class="inst-logo">
                     </div>
                 </div>
-                <div class="wrapper">
+                <div class="wrapper" id="block12">
                     <div class="block" id="img13">
                         <div class="comment">
                             <div class="comment__theme">you & culture</div>
@@ -149,7 +150,7 @@
             </div>
         </div>
         
-        <div class="wrapper">
+        <div class="wrapper" id="block13">
             <div class="block-full" id="img14">
                 <div class="comment">
                     <div class="comment__theme">relax & enjoy life</div>
@@ -161,6 +162,8 @@
         </div>
     </div>
 
+    <script src="scripts/scroll.js"></script>
+    
     <footer>
         <div class="footer-text">© Hordovskyi Mykhailo, 2020</div>
     </footer>
